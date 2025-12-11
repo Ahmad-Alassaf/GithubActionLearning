@@ -2,19 +2,15 @@ name: First Workflow
 on:
   push:
     branches:
-      -main
-    
+      -main   
 
 jobs:
    firstjob:
-     runs-on:  ubunto-latest   
-     
+     runs-on:  ubunto-latest        
      steps:   
         - name: firststep
-          run: echo "first step runnen"
-           
+          run: echo "first step runnen"           
         - name: second step
-          run: echo "second steb running"
-           
-        -  name: third step checkout repository
-           uses:  actions/checkout@v6.0.1
+          run: echo "second steb running"           
+        - name: third step checkout repository
+          uses:  actions/checkout@v6.0.1
