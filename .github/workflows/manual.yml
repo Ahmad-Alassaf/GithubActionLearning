@@ -1,8 +1,14 @@
 on:
   workflow_dispatch
 jobs:
-  deployment:    
+  Testing-Application:    
     runs-on: ubuntu-latest
     steps:
-      - name: step1
-        run: echo "step1 running"
+      - name: Testing-steps
+        run: echo "testing is running.."
+  Hosting-application:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hosting-steps
+        run: echo "hosting is running..."
+      
