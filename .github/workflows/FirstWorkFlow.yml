@@ -17,4 +17,4 @@ jobs:
         - name: list all files 
           run: |
            echo "all files in directory"
-           ls
+           ls -la
