@@ -2,11 +2,11 @@ name: First Workflow
 on:
   push:
     branches:
-      -main   
+      - main   
 
 jobs:
    firstjob:
-     runs-on:  ubunto-latest        
+     runs-on:  ubuntu-latest        
      steps:   
         - name: firststep
           run: echo "first step runnen"           
