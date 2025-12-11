@@ -1,7 +1,7 @@
 function greet(name){
     return `Hello, ${name}`;
 }
-module.export=greet;
+module.exports=greet;
 if(require.main===module)
 {
     console.log(greet("World"));
